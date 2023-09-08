@@ -46,5 +46,3 @@ int main() {
     b1.value = *b1.in;
     *b0.out = b0.value;
     *b1.out = b1.value;
-  }
-}

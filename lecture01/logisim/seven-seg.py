@@ -23,7 +23,7 @@ BLOCK = {
 
 for line in fileinput.input():
     # Load "A=0; B=1; ..." to current context
-    exec(line)
+     (line)
 
     # Render the seven-segment display
     pic = DISPLAY
